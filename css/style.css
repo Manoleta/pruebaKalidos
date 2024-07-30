@@ -64,7 +64,8 @@ h1 {
 }
 
 h2 {
-     font-size: 22px
+     font-size: 22px;
+     color:#fa0308 ;
 }
 
 h3 {
@@ -290,7 +291,7 @@ ul.email li a {
      height: 100%;
      top: 0;
      left: 0;
-     background-color: #950C0E;
+     background-color: #fa0308;
      overflow-x: hidden;
      transition: 0.5s;
      padding-top: 60px;
@@ -306,12 +307,12 @@ ul.email li a {
 }
 
 .sidepanel a:hover {
-     color: #1f1d47;
+     color: #950C0E;
      ;
 }
 
 .sidepanel a.active {
-     color: #1f1d47;
+     color: #950C0E;
 }
 
 .sidepanel .closebtn {
@@ -384,7 +385,7 @@ ul.email li a {
 
 #myCarousel a.carousel-control-next,
 #myCarousel a.carousel-control-prev {
-     background: #950C0E;
+     background: #fa0308;
      width: 80px;
      height: 80px;
      top: 49%;
@@ -422,7 +423,7 @@ ul.email li a {
 }
 
 .foot_img {
-     background: #950C0E;
+     background: #fa0308;
      max-width: 350px;
      margin: 0 auto;
      padding: 65px 0 58px 0;
@@ -443,13 +444,13 @@ ul.email li a {
 
 .read_more {
      display: inline-block;
-     background: #950C0E;
+     background: #fa0308;
      color: #fff;
-     max-width: 201px;
-     height: 67px;
+     max-width: 300px;
+     height: 70px;
      line-height: 67px;
      width: 100%;
-     font-size: 17px;
+     font-size: 20px;
      text-align: center;
      font-weight: bold;
      border-radius: 50px;
@@ -486,7 +487,7 @@ ul.email li a {
 }
 
 .dorder {
-     border: #950C0E solid 40px;
+     border: #fa0308 solid 40px;
 }
 
 .sports_main figure img {
@@ -496,7 +497,7 @@ ul.email li a {
 
 .sports_text h3 {
      padding-top: 30px;
-     color: #950C0E;
+     color: #fa0308;
      font-size: 30px;
      line-height: 30px;
      padding-bottom: 20px;
@@ -595,7 +596,7 @@ ul.email li a {
 }
 
 .trannir_text span {
-     color:#950C0E;
+     color:#fa0308;
      font-size: 23px;
      font-weight: bold;
      display: block;
@@ -611,7 +612,7 @@ ul.email li a {
 
 #testimo a.carousel-control-next,
 #testimo a.carousel-control-prev {
-     background: #950C0E;
+     background: #fa0308;
      width: 80px;
      height: 80px;
      top: 49%;
@@ -707,7 +708,7 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     color: #26cc35;
+     color: #fa0308;
      transform: rotate(360deg);
      transition: ease-in all 0.7s;
 }
@@ -751,7 +752,7 @@ ul.social_icon li a:hover {
 }
 
 .menu_bottom li a:hover {
-     color: #26cc35;
+     color: #fa0308;
 }
 
 .copyright {
@@ -769,7 +770,7 @@ ul.social_icon li a:hover {
 }
 
 .copyright a:hover {
-     color: #26cc35;
+     color:#fa0308;
 }
 
 
@@ -779,7 +780,7 @@ ul.social_icon li a:hover {
 /*- - ener page css--*/
 
 .inner_page header {
-     box-shadow: 0 -3px 12px 0px #950C0E;
+     box-shadow: 0 -3px 12px 0px #fa0308;
      position: inherit;
      background: #fff;
 }
@@ -825,7 +826,7 @@ ul.social_icon li a:hover {
 .main_form .send_btn {
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #26cc35;
+     background-color: #fa0308;
      text-transform: uppercase;
      color: #fff;
      padding: 12px 0px;
@@ -855,4 +856,46 @@ ul.social_icon li a:hover {
 text-align: center;
 padding-top: 50px;
 
+}
+
+.marcas {
+     padding: 0px;
+}
+
+
+#carouselExampleIndicators .carousel-indicators {
+     display: none;
+}
+
+#carouselExampleIndicators a.carousel-control-next,
+#carouselExampleIndicators a.carousel-control-prev {
+     background: #fa0308;
+     width: 80px;
+     height: 80px;
+     top: 49%;
+     opacity: 1;
+     font-size: 35px;
+     color: #fff;
+     border-radius: 50px;
+}
+
+#carouselExampleIndicators a.carousel-control-next {
+     right: 5%;
+}
+
+#carouselExampleIndicators a.carousel-control-prev {
+     left: 5%;
+}
+
+#carouselExampleIndicators a.carousel-control-next:focus,
+#carouselExampleIndicators a.carousel-control-next:hover,
+#carouselExampleIndicators a.carousel-control-prev:focus,
+#carouselExampleIndicators a.carousel-control-prev:hover {
+     background: #1f1d47;
+     color: #fff;
+     opacity: 1;
+}
+
+.caract {
+     color: black;
 }

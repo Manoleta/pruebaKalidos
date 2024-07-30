@@ -78,9 +78,13 @@ File Name: responsive.css
 }
 
 @media (max-width: 575px) {
+    body{
+        background: white;
+    }
+
     header {
         position: inherit;
-        background: #950C0E;
+        background:  #fa0308;
     }
     .d_none {
         display: none !important;
@@ -119,7 +123,7 @@ File Name: responsive.css
         margin-top: -33px;
     }
     .dorder {
-        border: #1f1d45 solid 10px;
+        border: #fa0308 solid 10px;
     }
     .foot_img {
         max-width: 260px;
@@ -136,7 +140,7 @@ File Name: responsive.css
         margin-top: 5px;
     }
     .footer {
-        background: #070808;
+        background: #fa0308;
     }
     .conta {
         text-align: left;
